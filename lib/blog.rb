@@ -38,7 +38,7 @@ class Blog < Sinatra::Base
 
   # Sort articles by date, display new articles first
   articles.sort_by! { |article| article.date }
-  article.reverse!
+  articles.reverse!
 
   get '/' do
     erb :index
