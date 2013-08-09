@@ -5,3 +5,4 @@ gem 'thin'
 gem "uuid", "~> 2.3.7"
 gem 'rack-mount'
 gem 'rdiscount'
+gem 'rack-cache'

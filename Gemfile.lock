@@ -6,6 +6,8 @@ GEM
     macaddr (1.6.1)
       systemu (~> 2.5.0)
     rack (1.5.2)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
     rack-protection (1.5.0)
@@ -28,6 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rack-cache
   rack-mount
   rdiscount
   sinatra
